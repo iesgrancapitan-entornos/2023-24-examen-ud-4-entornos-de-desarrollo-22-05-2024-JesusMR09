@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="es" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>proyecto.Estudiante module &mdash; documentación de DocumentacionExamen - 1.0</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/documentation_options.js?v=4936afed"></script>
+        <script src="_static/doctools.js?v=9a2dae69"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+        <script src="_static/translations.js?v=efdbd0b9"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Índice" href="genindex.html" />
+    <link rel="search" title="Búsqueda" href="search.html" />
+    <link rel="next" title="proyecto.Gato module" href="proyecto.Gato.html" />
+    <link rel="prev" title="proyecto package" href="proyecto.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            DocumentacionExamen
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">proyecto</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="proyecto.html">proyecto package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="proyecto.html#submodules">Submodules</a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">proyecto.Estudiante module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="proyecto.Gato.html">proyecto.Gato module</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="proyecto.html#module-proyecto">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">DocumentacionExamen</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="modules.html">proyecto</a></li>
+          <li class="breadcrumb-item"><a href="proyecto.html">proyecto package</a></li>
+      <li class="breadcrumb-item active">proyecto.Estudiante module</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/proyecto.Estudiante.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-proyecto.Estudiante">
+<span id="proyecto-estudiante-module"></span><h1>proyecto.Estudiante module<a class="headerlink" href="#module-proyecto.Estudiante" title="Link to this heading">¶</a></h1>
+<p>Clase Estudiante base para el Examen Convocatoria Ordinaria de la UD4
+:author: Jaime Rabasco
+Refactorización
+Extrae una superclase con los campos</p>
+<blockquote>
+<div><p>nombre
+apellidos
+nif</p>
+</div></blockquote>
+<dl class="py class">
+<dt class="sig sig-object py" id="proyecto.Estudiante.Estudiante">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">proyecto.Estudiante.</span></span><span class="sig-name descname"><span class="pre">Estudiante</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">nif</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">curso</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nombre</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">apellidos</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#proyecto.Estudiante.Estudiante" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#proyecto.Estudiante.Persona" title="proyecto.Estudiante.Persona"><code class="xref py py-class docutils literal notranslate"><span class="pre">Persona</span></code></a></p>
+<p>Clase que a partir de persona crea un estudiante</p>
+<dl class="py property">
+<dt class="sig sig-object py" id="proyecto.Estudiante.Estudiante.apellidos">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">apellidos</span></span><a class="headerlink" href="#proyecto.Estudiante.Estudiante.apellidos" title="Link to this definition">¶</a></dt>
+<dd><p>Getter de los apellidos del estudiante
+:return: Toma la variable apellidos que esta en el contructor</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="proyecto.Estudiante.Estudiante.curso">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">curso</span></span><a class="headerlink" href="#proyecto.Estudiante.Estudiante.curso" title="Link to this definition">¶</a></dt>
+<dd><p>Getter del curso
+:return: Toma la variable curso que esta en el contructor</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="proyecto.Estudiante.Estudiante.nif">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">nif</span></span><a class="headerlink" href="#proyecto.Estudiante.Estudiante.nif" title="Link to this definition">¶</a></dt>
+<dd><p>Getter del nif
+:return: Toma la variable nif que esta en el contructor</p>
+</dd></dl>
+
+<dl class="py property">
+<dt class="sig sig-object py" id="proyecto.Estudiante.Estudiante.nombre">
+<em class="property"><span class="pre">property</span><span class="w"> </span></em><span class="sig-name descname"><span class="pre">nombre</span></span><a class="headerlink" href="#proyecto.Estudiante.Estudiante.nombre" title="Link to this definition">¶</a></dt>
+<dd><p>Getter del nombre del estudiante
+:return: Toma la variable nombre que esta en el contructor</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt class="sig sig-object py" id="proyecto.Estudiante.Persona">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">proyecto.Estudiante.</span></span><span class="sig-name descname"><span class="pre">Persona</span></span><a class="headerlink" href="#proyecto.Estudiante.Persona" title="Link to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Clase que crea una persona con su nombre, apellidos y nif</p>
+<dl class="py attribute">
+<dt class="sig sig-object py" id="proyecto.Estudiante.Persona.apellidos">
+<span class="sig-name descname"><span class="pre">apellidos</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Apellidos'</span></em><a class="headerlink" href="#proyecto.Estudiante.Persona.apellidos" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="proyecto.Estudiante.Persona.nif">
+<span class="sig-name descname"><span class="pre">nif</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'11111111Z'</span></em><a class="headerlink" href="#proyecto.Estudiante.Persona.nif" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="proyecto.Estudiante.Persona.nombre">
+<span class="sig-name descname"><span class="pre">nombre</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'Nombre'</span></em><a class="headerlink" href="#proyecto.Estudiante.Persona.nombre" title="Link to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="proyecto.html" class="btn btn-neutral float-left" title="proyecto package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="proyecto.Gato.html" class="btn btn-neutral float-right" title="proyecto.Gato module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Jesus Montañez.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
